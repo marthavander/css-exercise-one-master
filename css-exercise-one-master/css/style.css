@@ -1,0 +1,53 @@
+/* css */
+
+/* html tag styles */
+html, body, div, h1, h3, nav, section {
+	border: 0;
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 1em;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	margin: auto;
+	display: block;
+}
+
+div, nav {
+	height: 100px;
+}
+
+h1 {
+	padding-top: 32px;
+	font-size: 2em;
+	color: #000000;
+}
+
+h3 {
+	padding-top: 36px;
+  font-size: 1.3em;
+}
+
+nav {
+  background-color: #ffe651;
+  position: fixed;
+}
+
+section {
+	padding-top: 100px;
+}
+
+/* css class styles */
+.element {
+  background-color: green;
+  margin: 10px 0;
+}
+
+.example {
+	font-weight: bold;
+}
+
+.newcolor {
+	background-color: #26619c;
+	margin: 10px 0;
+}
